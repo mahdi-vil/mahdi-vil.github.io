@@ -1,0 +1,324 @@
+@media all and (max-width:991px) {
+    .imgA {
+        background: url("../images/pos1.avif");
+        height: 200px;
+        background-size: cover;
+
+
+    }
+
+    .imgB {
+        background: url("../images/pos2.avif");
+        height: 200px;
+        background-size: cover;
+
+    }
+
+    .imgC {
+        background: url("../images/pos3.avif");
+        height: 200px;
+        background-size: cover;
+
+    }
+
+    .imgD {
+        background: url("../images/pos4.avif");
+        height: 200px;
+        background-size: cover;
+    }
+
+    .mozoh {
+        height: 100px;
+    }
+
+    .load {
+        width: 200px;
+        height: 20px;
+    }
+
+    .fm {
+        margin-top: 60%;
+    }
+
+    .wo {
+        width: 192px;
+        height: 141px;
+
+    }
+
+    .no {
+        width: 271px;
+        height: 141px;
+    }
+
+    .eco {
+        width: 79px;
+        height: 141px;
+    }
+
+    .sco {
+        background: url("../images/250826-kompany-pressetalk-mel.avif");
+        background-size: cover;
+    }
+
+    .scoA {
+        background: url("../images/noirr.avif");
+        background-size: cover;
+    }
+
+    .scoB {
+        background: url("../images/pos3.avif");
+        background-size: cover;
+    }
+
+    .scoC {
+        background: url("../images/250823_freund-interview-traumspiel-mel.avif");
+        background-size: cover;
+    }
+
+    .scoD {
+        background: url("../images/pos1.avif");
+        background-size: cover;
+    }
+
+    .scoE {
+        background: url("../images/pos4.avif");
+        background-size: cover;
+    }
+
+    .for {
+        width: 354px;
+        height: 415px;
+        border-radius: 5px;
+    }
+
+    .in {
+        width: 320px;
+        height: 41px;
+    }
+
+    .shado {
+        box-shadow: 1px 1px 9px gray, -1px -1px 9px gray;
+    }
+    .fix{
+        position: fixed;
+    }
+    .mah{
+        width: 100%;
+        height: 100px;
+    }
+}
+
+@media all and (min-width:992px) {
+    .imgA {
+        background: url("../images/pos1.avif");
+        height: 552px;
+        background-size: cover;
+
+
+    }
+
+    .imgB {
+        background: url("../images/pos2.avif");
+        height: 552px;
+        background-size: cover;
+
+    }
+
+    .imgC {
+        background: url("../images/pos3.avif");
+        height: 552px;
+        background-size: cover;
+
+    }
+
+    .imgD {
+        background: url("../images/pos4.avif");
+        height: 552px;
+        background-size: cover;
+    }
+
+    .C {
+        margin-top: -16px;
+    }
+
+    .tabli {
+        height: 100px;
+        width: 350px;
+    }
+
+    .pos {
+        height: 70px;
+    }
+
+    .mozoh {
+        width: 550px;
+    }
+
+    .fm {
+        margin-top: 45%;
+    }
+
+    .wo {
+        width: 296px;
+        height: 200px;
+        background-size: cover;
+    }
+
+    .no {
+        width: 396px;
+        height: 200px;
+    }
+
+    .eco {
+        width: 100px;
+        height: 200px;
+    }
+
+    .sco {
+        background: url("../images/250826-kompany-pressetalk-mel.avif");
+        background-size: cover;
+    }
+
+    .scoA {
+        background: url("../images/noir.png");
+        background-size: cover;
+    }
+
+    .scoB {
+        background: url("../images/pos3.avif");
+        background-size: cover;
+    }
+
+    .scoC {
+        background: url("../images/250823_freund-interview-traumspiel-mel.avif");
+        background-size: cover;
+    }
+
+    .scoD {
+        background: url("../images/pos1.avif");
+        background-size: cover;
+    }
+
+    .scoE {
+        background: url("../images/pos4.avif");
+        background-size: cover;
+    }
+
+    .wor {
+        width: 380px;
+        height: 218px;
+    }
+
+    .bag {
+        background: url("../images/Allianz_Arena_200227.avif");
+        background-size: cover;
+    }
+
+    .bagA {
+        background: url("../images/meister_1932_fcb.avif");
+        background-size: cover;
+    }
+
+    .bagB {
+        background: url("../images/GettyImages-1483350882.avif");
+        background-size: cover;
+    }
+
+    .for {
+        width: 846px;
+        height: 300px;
+        border-bottom-left-radius: 5px;
+        border-top-left-radius: 5px;
+
+    }
+
+    .in {
+        width: 320px;
+        height: 41px;
+    }
+
+    .the {
+        width: 362px;
+        height: 300px;
+        background: url("../images/allianz_arena2.avif");
+        background-size: cover;
+    }
+    .shado{
+        transition: all 1s ease 0s;
+    }
+    .shado:hover {
+        box-shadow: 1px 1px 9px gray,
+            -1px -1px 9px gray;
+    }
+        .fix {
+            position: static;
+        }
+        .lgw{
+            width: 30px;
+            height: 30px;
+        }
+}
+
+body {
+    background-color: #ED0037;
+    overflow-x: hidden;
+    height: 100vh;
+}
+
+.vl {
+
+    margin-left: 65%;
+}
+
+.novi {
+    background-color: #ED0037;
+
+}
+
+.news {
+
+    transition: all 200ms ease 0s;
+}
+
+.news:hover {
+    border-bottom: 2px solid white;
+
+}
+
+.logo {
+    width: 104px;
+    height: 154px;
+}
+
+.logo1 {
+    width: 181px;
+    height: 154px;
+}
+
+.tab {
+    margin-left: 0.2px;
+}
+
+.fs {
+    font-size: 10px;
+}
+
+.so {
+    width: 30px;
+    height: 10px;
+}
+
+.hor {
+    transition: all 1s ease 0s;
+}
+
+.hor:hover {
+
+    margin-bottom: 20px;
+    margin-right: 20px;
+}
+.lgn {
+    font-size: 12px;
+}
+.kok {}
