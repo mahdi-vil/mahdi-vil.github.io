@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'Vazirmatn';
+    src: url('Vazirmatn-SemiBold.eot');
+    src: url('Vazirmatn-SemiBold.eot?#iefix') format('embedded-opentype'),
+        url('Vazirmatn-SemiBold.woff2') format('woff2'),
+        url('Vazirmatn-SemiBold.woff') format('woff'),
+        url('Vazirmatn-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
