@@ -1,377 +1,439 @@
-<!doctype html>
-<html>
+<!DOCTYPE html>
+<html lang="en">
 
 <head>
-	<title>Tapsi</title>
-	<link rel="stylesheet" href="css/main.css">
-	<link rel="icon" href="images/poster.webp">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mft</title>
+    <link rel="icon" href="images/download.png">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="css/main.css">
+
 </head>
 
-<body>
+<body class="z-0 relative">
+    <!-- start-navigeshen-sm -->
+    <div class="parent-navi border-1 border-gray-300">
+        <div class="navi flex justify-between
+            items-center mb-6 lg:hidden">
+            <div class="text_nav bg-blue-50 rounded-4xl flex justify-center-safe items-center mx-3 my-2">
+                <a href="#"><i class="bi bi-search search_js text-lg text-blue-400   "></i></a>
+            </div>
+            <a href="#"><img class="img_nav mx-3 my-2 " src="images/mftlogo.png" alt=""></a>
+            <div class="text_nav bg-blue-50 rounded-4xl flex justify-center-safe items-center mx-3 my-2 open_list_js">
+                <a href="#"><i class="bi bi-list text-xl text-blue-400  "></i></a>
+            </div>
+        </div>
+        <!-- strat-js-list -->
+        <div class="list_js  lg:hidden z-1002  hidden ">
+            <div class="w-full flex flex-col bg-white">
+                <div class="w-full flex justify-end">
+                    <div
+                        class="text_nav bg-red-50 rounded-4xl flex justify-center-safe items-center mx-3 mt-2 lg:mt-10 end_nav ">
+                        <i class="bi bi-x-lg  text-xl text-red-400 font-bold "></i>
+                    </div>
+                </div>
+                <div class="flex mt-1 px-4 text-right">
+                    <div class="flex w-70 bg-gray-200  m-1 p-3 rounded-lg text-right ">
+                        <p class="pr-1"> پنل اساتید </p>
+                        <i class="bi bi-person-fill text-lg text-gray-400"></i>
+                    </div>
+                    <div class="flex w-70 bg-gray-200  m-1 p-3 rounded-lg text-right ">
+                        <p class="pr-1"> پنل دانشپذیر </p>
+                        <i class="bi bi-person-fill text-lg text-gray-400"></i>
+                    </div>
+                </div>
+                <div class="px-3">
+                    <ul>
+                        <li class="flex justify-between w-full px-2 py-3 border-b-1 border-gray-400">
+                            <i class="bi bi-chevron-left text-lg text-gray-400"></i>
+                            <p class="text-lg text-gray-400 "> دپارتمان ها </p>
+                        </li>
+                        <li class="flex justify-between w-full px-2 py-3 border-b-1 border-gray-400">
+                            <i class="bi bi-chevron-left text-lg text-gray-400"></i>
+                            <p class="text-lg text-gray-400 "> مراکز </p>
+                        </li>
+                        <li class="flex justify-between w-full px-2 py-3 border-b-1 border-gray-400">
+                            <i class="bi bi-chevron-left text-lg text-gray-400"></i>
+                            <p class="text-lg text-gray-400 "> تقویم آموزشی </p>
+                        </li>
+                        <li class="flex justify-between w-full px-2 py-3 border-b-1 border-gray-400">
+                            <i class="bi bi-chevron-left text-lg text-gray-400"></i>
+                            <p class="text-lg text-gray-400 "> خدمات آموزشی </p>
+                        </li>
 
-	<!-- navigisen-start -->
+                        <div class="pr-8">
+                            <li class="flex justify-between w-full px-2 py-3 border-b-1 border-gray-400">
+                                <i class="bi bi-chevron-left text-gray-400"></i>
+                                <p class=" text-gray-400 "> اموربین الملل </p>
+                            </li>
+                            <li class="flex justify-between w-full px-2 py-3 border-b-1 border-gray-400">
+                                <i class="bi bi-chevron-left text-gray-400"></i>
+                                <p class=" text-gray-400 "> آموزشهای سازمانی </p>
+                            </li>
+                            <li class="flex justify-between w-full px-2 py-3 border-b-1 border-gray-400">
+                                <i class="bi bi-chevron-left text-gray-400"></i>
+                                <p class=" text-gray-400 "> کاریابی الکترونیکی (کارتلنت) </p>
+                            </li>
 
-	<div class="k1">
+                        </div>
 
-		<div class="n1">
-			<div class="n4"><a class="a1" href="https://tapsi.ir/passengers/dl">دانلود تپسی</a></div>
-			<div>
-				<ul class="n2">
-					<li><a href="#" class="n5">اپلیکیشن رانندگان</a></li>
-					<li><a href="#" class="n5">پشتیبانی</a></li>
-					<li><a href="#" class="n5">وبلاگ</a></li>
-					<li><a href="#" class="n5">ثبت نام رانندگان موتور</a></li>
-					<li><a href="#" class="n5">ثبت نام رانندگان خودرو</a></li>
-				</ul>
-			</div> <a href="#">
-				<img src="images/images.png" alt="تپسی" class="n3">
-			</a>
-		</div>
+                        <li class="flex justify-between w-full px-2 py-3 border-b-1 border-gray-400">
+                            <i class="bi bi-chevron-left text-lg text-gray-400"></i>
+                            <p class="text-lg text-gray-400 "> امور نمایندگی ها </p>
+                        </li>
+                        <li class="flex justify-between w-full px-2 py-3 border-b-1 border-gray-400">
+                            <i class="bi bi-chevron-left text-lg text-gray-400"></i>
+                            <p class="text-lg text-gray-400 "> روابط عمومی </p>
+                        </li>
 
-		<!-- navigisen-end -->
+                        <div class="pr-8">
+                            <li class="flex justify-between w-full px-2 py-3 border-b-1 border-gray-400">
+                                <i class="bi bi-chevron-left text-gray-400"></i>
+                                <p class=" text-gray-400 "> آوا و نوای مجتمع فنی تهران(کتب صوتی) </p>
+                            </li>
+                            <li class="flex justify-between w-full px-2 py-3 border-b-1 border-gray-400">
+                                <i class="bi bi-chevron-left text-gray-400"></i>
+                                <p class=" text-gray-400 "> اخبار </p>
+                            </li>
+                            <li class="flex justify-between w-full px-2 py-3 border-b-1 border-gray-400">
+                                <i class="bi bi-chevron-left text-gray-400"></i>
+                                <p class=" text-gray-400 "> مقالات </p>
+                            </li>
+                            <li class="flex justify-between w-full px-2 py-3 border-b-1 border-gray-400">
+                                <i class="bi bi-chevron-left text-gray-400"></i>
+                                <p class=" text-gray-400 "> خبرنامه </p>
+                            </li>
 
+                            <div class="pr-8">
+                                <li class="flex justify-between w-full px-2 py-3 border-b-1 border-gray-400">
+                                    <i class="bi bi-chevron-left text-gray-400"></i>
+                                    <p class=" text-gray-400 "> خبرنامه الکترونیکی 1401 </p>
+                                </li>
+                                <li class="flex justify-between w-full px-2 py-3 border-b-1 border-gray-400">
+                                    <i class="bi bi-chevron-left text-gray-400"></i>
+                                    <p class=" text-gray-400 "> خبرنامه الکترونیکی 1402 </p>
+                                </li>
+                                <li class="flex justify-between w-full px-2 py-3 border-b-1 border-gray-400">
+                                    <i class="bi bi-chevron-left text-gray-400"></i>
+                                    <p class=" text-gray-400 "> خبرنامه الکترونیکی 1403 </p>
+                                </li>
+                                <li class="flex justify-between w-full px-2 py-3 border-b-1 border-gray-400">
+                                    <i class="bi bi-chevron-left text-gray-400"></i>
+                                    <p class=" text-gray-400 font-thin"> خبرنامه الکترونیکی 1404 </p>
+                                </li>
 
-		<!-- img-end -->
-		<div class="d32">
-			<a href="https://tapsi.taxi/passengers/dl?metrix_token=osl61z&amp;metrix_user_id=3aaefd7a-fde8-47c0-bad6-9de97a263e2e&amp;utm_source=blog&amp;utm_campaign=smart-voucher"
-				id="u1">
-			</a>
-		</div>
-	</div>
+                            </div>
 
-	<!-- img-end -->
+                            <li class="flex justify-between w-full px-2 py-3 border-b-1 border-gray-400">
+                                <i class="bi bi-chevron-left text-gray-400"></i>
+                                <p class=" text-gray-400 "> مسئولیت های اجتماعی(CSR) </p>
+                            </li>
+                            <li class="flex justify-between w-full px-2 py-3 border-b-1 border-gray-400">
+                                <i class="bi bi-chevron-left text-gray-400"></i>
+                                <p class=" text-gray-400 "> دفترچه دیجیتال معرفی فعالیت های مجتمع فنی تهران </p>
+                            </li>
 
-	<div class="k2">
+                        </div>
 
-	</div>
-	<!-- download-start -->
+                    </ul>
 
-	<div class="d1">
-		<img id="m1" src="images/hero.webp">
-		<div class="d2">
-			<span class="s1">
-				<h1> با سوپر اپلیکیشن تپسی,</h1>
-			</span>
-			<span class="s1">
-				<h1> زندگی به فرمان توست.</h1>
-			</span>
-			<div class="d3">
-				<a href="#">
-				<div class="d4">
-					<span class="a2"> نسخه وب اپلیکیشن <br>
-						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (PWA)
-					</span>
-				</div>
-			</a>
-			<a href="#">
-				<div class="d5">
-					<span class="a3"> دانلود اپلیکیشن
-						<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; مسافر </span>
-				</div>
-			</a>
-			</div>
-		</div>
-	</div>
+                </div>
 
-	<!-- download-end -->
+            </div>
+        </div>
+        <!-- end-js-list -->
 
-	<!-- clasic-start -->
+        <!-- strat-js-search -->
+        <div class=" searchtype_js z-1 flex flex-col  items-center hidden ">
+            <div class="xl:w-175 w-full flex justify-end items-center">
+                <div
+                    class="text_nav bg-blue-50 rounded-4xl flex justify-center-safe items-center mx-3 my-2 lg:mt-10 end_nav">
+                    <i class="bi bi-x-lg  text-xl text-blue-400 "></i>
+                </div>
+            </div>
+            <div class="xl:w-170 w-full flex justify-end items-center">
+                <p class=" my-3 "> جستجو </p>
+            </div>
+            <input type="search" name="&#xF52A;" id="&#xF52A;" class="search_in bg-withe-50 rounded-4xl shadow-xl/30  ">
+        </div>
+        <!-- end-js-search -->
 
-	<div class="d6">
-		<div class="d7">
-			<h2 aria-label="services section title" class="p4">سرویس‌های تپسی</h2>
-		</div>
-		<div class="d8">
-			<div class="d9"><a href="#"><img class="m2-1" src="images/classic.webp" alt="#">
-					<p> کلاسیک </p>
-				</a></div>
-			<div class="d9"><a href="#"><img class="m2" src="images/wait-and-share.webp" alt="#">
-					<p> باهمسفر </p>
-				</a></div>
-			<div class="d9"><a href="#"><img class="m2" src="images/delivery.webp" alt="#">
-					<p> ارسال بسته </p>
-				</a></div>
-			<div class="d9"><a href="#"><img class="m2" src="images/tel.webp" alt="#">
-					<p> تلفنی </p>
-				</a></div>
-			<div class="d9"><a href="#"><img class="m2" src="images/plus.webp" alt="#">
-					<p> پلاس </p>
-				</a></div>
-			<div class="d9"><a href="#"><img class="m2" src="images/intercity.webp" alt="#">
-					<p> بین شهری </p>
-				</a></div>
-		</div>
-		<div class="d10">
-			<div class="d12">
-				<img id="m3" src="images/illus-classic.webp">
-			</div>
-			<div class="d11">
-				<span class="s2">
-					<h3> تپسی کلاسیک </h3>
-				</span>
-				<span class="s2">
-					<h6> با سرویس تپسی کلاسیک، سریع، آسان و به‌صرفه به مقصد برسید. <br> دراین سرویس می‌توانید به دو یا
-						چند مقصد سفر کنید. </h6>
-				</span>
-			</div>
-		</div>
-	</div>
+        <!-- end-navigeshen-sm -->
 
-	<!-- clasic-end -->
+        <!-- start-navigeshen-lg -->
+        <div class="navi hidden lg:flex justify-between
+         items-center mb-6 ">
+            <div class="flex justify-between
+         items-center">
+                <a href="#">
+                    <i class="bi bi-caret-down-fill text-lg text-blue-400 ml-9 my-2 js_nav"></i></a>
+                <a href="#" class="js_nav">
+                    <p class=" text-sm text-gray-800 mx-3 my-2 js_nav"> حساب کاربری </p>
+                </a>
+                <div
+                    class="text_nav bg-blue-50 rounded-4xl flex justify-center-safe items-center mx-3 my-2 relative js_nav ">
+                    <a href="#" class="js_nav"><i class="bi bi-person-fill text-lg text-blue-400 "></i>
+                    </a>
+                    <!-- start-js-hesob -->
+                    <div class="absolute  w-80 mt-50 ml-65 ul_js_nav hidden ">
+                        <ul class="bg-white inset-shadow-2xs rounded-xl  ">
+                            <li class=" p-3 px-3 ">&nbsp;&nbsp;&nbsp;&nbsp;</li>
+                            <a href="#">
+                                <li class="flex justify-between
+        items-center bg-withe-500 p-3 px-3 ">
+                                    <i class="bi bi-chevron-left text-lg text-gray-400 pl-3"></i>
+                                    <p class="ml-15 text-gray-500 font-bold"> ورود حساب دانشپذیر </p>
+                                    <i class="bi bi-person-fill text-lg text-gray-400 pr-5"></i>
+                                </li>
+                            </a>
+                            <a href="#">
+                                <li class="flex justify-between
+    items-center bg-withe-500 p-3 px-3 ">
+                                    <i class="bi bi-chevron-left text-lg text-gray-400 pl-3"></i>
+                                    <p class="ml-15 text-gray-500 font-bold"> ورود حساب دانشپذیر </p>
+                                    <i class="bi bi-person-fill text-lg text-gray-400 pr-5"></i>
+                                </li>
+                            </a>
+                        </ul>
+                    </div>
+                    <!-- end-js-hesob -->
+                </div>
+                <div
+                    class="text_nav search_jsA  bg-blue-50 rounded-4xl flex justify-center-safe items-center mx-3 my-2">
+                    <a href="#"><i class="bi bi-search  text-lg text-blue-400   "></i></a>
+                </div>
+            </div>
+            <div class="flex justify-between
+items-center ">
+                <div class="sub_d">
+                    <a href="#" class="text_nav_a sub_nav flex justify-center-safe
+    items-center">
+                        <p class="text_dasteh text-gray-500 text-sm mx-3 my-2"> روابط عمومی </p>
+                    </a>
+                    <ul class="ul_sub  absolute hidden z-1000 shadow-xl/30">
+                        <li class="li_sub flex justify-center-safe items-center "><a href="#"
+                                class="a_sub p-1 flex justify-end items-end"> آوا و نوای مجتمع فنی تهران(کتب صوتی) </a>
+                        </li>
+                        <li class="li_sub flex justify-center-safe items-center "><a href="#"
+                                class="a_sub p-1 flex justify-end items-end"> اخبار </a></li>
+                        <li class="li_sub flex justify-center-safe items-center "><a href="#"
+                                class="a_sub p-1 flex justify-end items-end">
+                                مقالات
+                            </a></li>
+                        <li class="li_sub li_sub_sub relative flex justify-center-safe items-center "><a href="#"
+                                class="a_sub p-1 flex justify-end items-end relative "> خبرنامه </a>
+                            <ul class="hidden absolute li_ul_sub mt-42 mr-90 z-1001">
+                                <li class="li_sub  flex justify-center-safe items-center "><a href="#"
+                                        class="a_sub p-1 flex justify-end items-end"> خبرنامه الکترونیکی 1401 </a></li>
+                                <li class="li_sub  flex justify-center-safe items-center "><a href="#"
+                                        class="a_sub p-1 flex justify-end items-end"> خبرنامه الکترونیکی 1402 </a></li>
+                                <li class="li_sub  flex justify-center-safe items-center "><a href="#"
+                                        class="a_sub p-1 flex justify-end items-end"> خبرنامه الکترونیکی 1403 </a></li>
+                                <li class="li_sub  flex justify-center-safe items-center "><a href="#"
+                                        class="a_sub p-1 flex justify-end items-end"> خبرنامه الکترونیکی 1404 </a></li>
+                            </ul>
 
-	<!-- ranandeh-start -->
+                        </li>
+                        <li class="li_sub flex justify-center-safe items-center "><a href="#"
+                                class="a_sub p-1 flex justify-end items-end"> مسئولیت های اجتماعی(CSR) </a></li>
+                        <li class="li_sub flex justify-center-safe items-center "><a href="#"
+                                class="a_sub p-1 flex justify-end items-end"> دفترچه دیجیتال معرفی فعالیت های مجتمع فنی
+                                تهران
+                            </a></li>
+                    </ul>
+                </div>
+                <a href="#" class="text_nav_a flex justify-center-safe
+                                    items-center">
+                    <p class="text_dasteh text-gray-500 text-sm mx-3 my-2"> امور نمایندگی ها </p>
+                </a>
+                <div class="sub_d">
+                    <a href="#" class="text_nav_a sub_nav flex
+                                    justify-center-safe items-center ">
+                        <p class="text_dasteh text-gray-500 text-sm mx-3 my-2"> خدمات آموزشی </p>
+                    </a>
+                    <ul class=" ul_sub  absolute hidden z-1000 shadow-xl/30 ">
+                        <li class="li_sub flex justify-center-safe items-center"><a href="#"
+                                class="a_sub p-1 flex justify-end items-end">
+                                اموربین الملل
 
-	<div class="d13">
-		<img id="m4" src="images/section-driver.webp">
-		<div class="d14">
-			<span class="s1">
-				<h2> در کمتر از ۱۰ دقیقه ثبت‌نام کنید</h2>
-			</span>
-			<ul class="u2">
-				<li> کسب درآمد بالا تا ۶۵ میلیون تومان </li>
-				<li> ۵ مرتبه تسویه آنی در روز </li>
-				<li> تخفیف لوازم مصرفی خودرو از تپسی گاراژ </li>
-				<li> استفاده از امکانات باشگاه سفیران تپسی </li>
-			</ul>
-			<div class="d15">
-				<a href="#" class="a4">
-					<div class="d16">
-						<span class="s3"> ثبت‌نام راننده خودرو </span>
-					</div>
-				</a>
-				<div class="d17">
-					<a href="#" class="a5"> دانلود برنامه رانندگان
-					</a>
-					<div class="d18">
-						<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-							class="bi1 bi-chevron-left" viewBox="0 0 16 16">
-							<path fill-rule="evenodd"
-								d="M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0" />
-						</svg>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
+                            </a></li>
+                        <li class="li_sub flex justify-center-safe items-center"><a href="#"
+                                class="a_sub p-1 flex justify-end items-end"> آموزشهای سازمانی </a></li>
+                        <li class="li_sub flex justify-center-safe items-center"><a href="#"
+                                class="a_sub p-1 flex justify-end items-end">
+                                کاریابی الکترونیکی (کارتلنت)
+                            </a></li>
+                    </ul>
+                </div>
+                <a href="#" class="text_nav_a flex justify-center-safe
+                        items-center ">
+                    <p class="text_dasteh text-gray-500 text-sm mx-3 my-2"> تقویم آموزشی </p>
+                </a>
+                <a href="#" class="text_nav_a flex justify-center-safe
+                    items-center">
+                    <p class="text_dasteh text-gray-500 text-sm mx-3 my-2"> مراکز </p>
+                </a>
+                <a href="#" class="text_nav_a flex justify-center-safe
+                items-center">
+                    <p class="text_dasteh text-gray-500 text-sm mx-3 my-2"> دپارتمان ها </p>
+                </a>
+                <a href="#"><img class="img_nav mx-3 my-2" src="images/mftlogo.png" alt=""></a>
+            </div>
+        </div>
+        <!-- end-navigeshen-lg -->
+    </div>
+    <div class="parent w-full">
 
-	<!-- ranandeh-end -->
+        <!-- start-text-zir-navi-sm -->
+        <div class="w-full lg:flex lg:justify-between lg:p-20 lg:pb-0 z-0 h-[550px]">
+            <div class="flex flex-col
+            items-center lg:hidden">
+                <p class="mt-3 p-3 text-center text-[17px] font-bold">
 
-	<!-- car's-start -->
-
-	<div class="d19">
-		<img id="m5" src="images/section-corporate.webp">
-		<div class="d20">
-			<span class="s5">
-				<h2> خدمات ویژه کسب کار‌ها </h2>
-			</span>
-			<span class="s4">
-				<h6> شما می‌توانید از امکانات ویژه تپسی برای کسب وکارها مانند درخواست <br> نامحدود خودرو و پیک به صورت
-					همزمان و ایجاد کد تخفیف سازمانی <br> استفاده کنید. </h6>
-			</span>
-			<div class="d21">
-
-				<div class="d22">
-					<a href="#" class="a5">
-						خرید کد تخفیف سازمانی</a>
-					<div class="d24">
-						<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-							class="bi1 bi-chevron-left" viewBox="0 0 16 16">
-							<path fill-rule="evenodd"
-								d="M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0" />
-						</svg>
-					</div>
-				</div>
-
-				<a href="#" class="a4">
-					<div class="d23">
-						<span class="s6">
-							پنل سازمانی تپسی</span>
-
-
-					</div>
-				</a>
-			</div>
-		</div>
-	</div>
-
-	<!-- car's-end -->
-
-	<!-- nasb-start -->
-
-	<div class="d25">
-		<div class="d26">
-			<div class="27">
-				<img id="m6" src="images/section-install.webp" alt=" نصب ">
-				<div class="d28">
-					<span class="s7">
-						<h3>همین حالا تپسی رو نصب کن! </h3>
-					</span>
-					<span class="s8">
-						<h6> با نصب سوپر اپلیکیشن تپسی می‌توانید علاوه بر درخواست خودرو، از <br> سرویس‌های ارسال بسته،
-							سفارش غذا، خرید، سوپرمارکت و داروخانه نیز <br> استفاده کنید. </h6>
-					</span>
-					<div class="d29">
-						<a href="#">
-							<div class="d29-1">
-								<span class="s9"> اپلیکیشن تپسی </span>
-							</div>
-						</a>
-						<a href="#">
-							<div class="d29-2">
-								<span class="s10"> اپلیکیشن رانندگان </span>
-							</div>
-						</a>
-					</div>
-				</div>
-			</div>
-		</div>
-
-	</div>
-
-	<!-- nasb-end -->
-
-	<!-- veblog-start -->
-
-	<div class="d30">
-		<div class="d30-1">
-			<span class="s11">
-				<h2> تازه‌ترین‌های وبلاگ تپسی </h2>
-			</span>
-			<div class="d31">
-				<div class="d31-1"><img id="m7" src="images/00.-Overheating-Engine-Cover-Image.jpg"> <span id="s1">
-						<h3> موقع بالا رفتن آمپر خودرو چکار <br> کنیم؟ </h3>
-					</span> <span id="s2">
-						<h4> اگر شما هم با آغاز فصل گرما و در حال رانندگی، همواره نگاهتان به آمپر دمای خودرو است، این
-							مطلب را بخوانید. با شروع ...
-						</h4>
-					</span> </div>
-				<div class="d31-2"> <img id="m7" src="images/1.webp"> <span id="s1">
-						<h3> فرصت درآمد در تپسی‌باکس، با ارسال سفارش‌های سوپرمارکت و رستوران
-						</h3>
-					</span> <span id="s2">
-						<h4> تپسی‌باکس، فقط یک سرویس ساده برای جابه‌جایی بسته‌های درون‌شهری نیست. با اضافه‌شدن
-							سرویس‌هایی مثل تپسی‌فود و...
-						</h4>
-					</span> </div>
-				<div class="d31-3"> <img id="m7" src="images/what-can-drain-a-car-battery-when-the-car-is-off.jpg">
-					<span id="s1">
-						<h3>
-							دلایل خالی شدن باتری خودرو + راهکار روشن کردن ماشین
-						</h3>
-					</span> <span id="s2">
-						<h4> باتری مثل قلب تپنده‌ سیستم برقی خودرو است. ایراد در این قطعه خیلی زود اثرش را در عملکرد فنی
-							ماشین می‌گذارد. حتما برای...
-						</h4>
-					</span>
-				</div>
-			</div>
-
-		</div>
-
-
-	</div>
-
-	<!-- veblog-end -->
-
-	<!-- tozihat-start -->
-
-	<div class="dA">
-		<div class="dA-A">
-			<div class="lA"> <img src="images/tapsi-logo-white.svg" alt="">
-				<p class="ac"> اپلیکیشن درخواست خودرو و پیک </p>
-				<p class="aa"> تمام حقوق مادی و معنوی این </p>
-				<p class="aa"> وبسایت متعلق به تپسی است. </p>
-			</div>
-
-			<div>
-				<p><b> تپسی </b></p>
-				<a href="#" class="ab"><b> وبلاگ تپسی </b></a>
-				<a href="#" class="ab"><b> فرصت شغلی </b></a>
-				<a href="#" class="ab"><b>
-						تماس با ما </b> </a>
-				<a href="#" class="ab"><b> لوگو و هویت سازمانی </b></a>
-				<a href="#" class="ab"><b>
-						استخدام بازاریاب
-					</b> </a>
-				<a href="#" class="ab"><b>
-						امور سهام </b></a>
-			</div>
-
-			<div>
-				<p><b> مسافران </b></p>
-				<a href="#" class="ab"><b> دانلود اپ مسافر </b></a>
-				<a href="#" class="ab"><b> نسخه وب تپسی </b></a>
-				<a href="#" class="ab"><b> پرسش‌های متداول مسافران </b></a>
-				<a href="#" class="ab"><b> شرایط و قوانین مسافران </b></a>
-				<a href="#" class="ab"><b> باشگاه مشتریان </b></a>
-			</div>
-
-			<div>
-				<p><b> رانندگان </b></p>
-				<a href="#" class="ab"><b> دانلود اپ سفیر
-					</b></a>
-				<a href="#" class="ab"><b> ثبت نام راننده تاکسی اینترنتی
-					</b></a>
-				<a href="#" class="ab"><b> پرسش‌های متداول سفیران </b></a>
-				<a href="#" class="ab"><b> شرایط و قوانین سفیران
-					</b></a>
-				<a href="#" class="ab"><b> تپسی گاراژ
-					</b></a>
-				<a href="#" class="ab"><b> ثبت نام راننده موتور
-					</b></a>
-			</div>
-
-			<div>
-				<p><b> کسب و کارها </b></p>
-				<a href="#" class="ab"><b> پنل سازمانی تپسی </b></a>
-				<a href="#" class="ab"><b> خرید کد اعتبار و تخفیف </b></a>
-			</div>
-
-		</div>
-
-		<div class="dA-B">
-			<div class="dA-B-B">
-				<a href="#"> <img class="lc" src="images/etehadiye.png" alt=""></a>
-			</div>
-			<div class="dA-B-A">
-				<a href="#"> <img class="lb" src="images/g.htm" alt=""></a>
-			</div>
-			<div class="dA-B-C"> <a href="#"> <img class="la" src="images/enamad.ir.png" alt=""></a>
-			</div>
+                    مجتمع فنی تهران، پیشرو در حوزه مهارت آموزی و توسعه
+                    اشتغال مولد
 
 
-		</div>
-		<h5>تپسی در شبکه‌های اجتماعی</h5>
-		<div class="dA-C">
-			<a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-					class="bi bi-facebook" viewBox="0 0 16 16">
-					<path
-						d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951" />
-				</svg></a>
-			<a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-					class="bi bi-instagram" viewBox="0 0 16 16">
-					<path
-						d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.9 3.9 0 0 0-1.417.923A3.9 3.9 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.9 3.9 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.9 3.9 0 0 0-.923-1.417A3.9 3.9 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599s.453.546.598.92c.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.5 2.5 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.5 2.5 0 0 1-.92-.598 2.5 2.5 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233s.008-2.388.046-3.231c.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92s.546-.453.92-.598c.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92m-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217m0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334" />
-				</svg></a>
-			<a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-					class="bi bi-twitter" viewBox="0 0 16 16">
-					<path
-						d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334q.002-.211-.006-.422A6.7 6.7 0 0 0 16 3.542a6.7 6.7 0 0 1-1.889.518 3.3 3.3 0 0 0 1.447-1.817 6.5 6.5 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.32 9.32 0 0 1-6.767-3.429 3.29 3.29 0 0 0 1.018 4.382A3.3 3.3 0 0 1 .64 6.575v.045a3.29 3.29 0 0 0 2.632 3.218 3.2 3.2 0 0 1-.865.115 3 3 0 0 1-.614-.057 3.28 3.28 0 0 0 3.067 2.277A6.6 6.6 0 0 1 .78 13.58a6 6 0 0 1-.78-.045A9.34 9.34 0 0 0 5.026 15" />
-				</svg></a>
-			<a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-					class="bi bi-linkedin" viewBox="0 0 16 16">
-					<path
-						d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z" />
-				</svg></a>
-			<a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-					class="bi bi-telegram" viewBox="0 0 16 16">
-					<path
-						d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0M8.287 5.906q-1.168.486-4.666 2.01-.567.225-.595.442c-.03.243.275.339.69.47l.175.055c.408.133.958.288 1.243.294q.39.01.868-.32 3.269-2.206 3.374-2.23c.05-.012.12-.026.166.016s.042.12.037.141c-.03.129-1.227 1.241-1.846 1.817-.193.18-.33.307-.358.336a8 8 0 0 1-.188.186c-.38.366-.664.64.015 1.088.327.216.589.393.85.571.284.194.568.387.936.629q.14.092.27.187c.331.236.63.448.997.414.214-.02.435-.22.547-.82.265-1.417.786-4.486.906-5.751a1.4 1.4 0 0 0-.013-.315.34.34 0 0 0-.114-.217.53.53 0 0 0-.31-.093c-.3.005-.763.166-2.984 1.09" />
-				</svg></a>
-		</div>
+                </p>
+                <p class=" px-3 pt-3 text-center text-[13px] text-gray-400 ">
 
-	</div>
-	<!-- tozihat-end -->
+                    مجتمع فنی تهران ماموریت خود را توسعه اشتغال و کار آفرینی از طریق آموزش های مهارت محور می داند.
+
+                </p>
+                <div class="bg-blue-700/50 rounded-4xl shadow-lg shadow-blue-500/50 hover:border-2 hover:border-white">
+                    <p class="text-[14px] py-2 px-6 text-white"> مشاهده دپارتمان ها </p>
+                </div>
+            </div>
+            <!-- end-text-zir-navi-sm -->
+
+            <!-- start-img-zir-navi -->
+            <div class="flex flex-col w-full">
+                <div class="z-0 w-full relative h-[100%] ">
+                    <div class="relative">
+                        <div class="absolute p-6 lg:p-13 z-div"><img class="img-slide rounded-[20px] ml-[-24px] -skew-1shadow-xl/30"
+                                src="images/1.jpeg" alt=""></div>
+                        <div class="z-1  absolute p-6 lg:p-13 z-div"><img
+                                class=" img-slide rounded-[20px] ml-[-15px] -skew-1shadow-xl/30" src="images/2.jpeg"
+                                alt=""></div>
+                        <div class="z-4  absolute p-6 lg:p-13 z-div"><img class=" img-slide rounded-[20px]  skew-1shadow-xl/30 lg:mt-[-6px]  mt-[-1px]"
+                                src=" images/3.jpeg" alt=""></div>
+                        <div class="z-3  absolute p-6 lg:p-13 z-div"><img class=" img-slide rounded-[20px] ml-4 skew-1shadow-xl/30"
+                                src="images/4.jpeg" alt=""></div>
+                        <div class="z-2  absolute p-6 lg:p-13 z-div"><img
+                                class="img-slide rounded-[20px] ounded-[20px] ml-6 shadow-xl/30"
+                                src="images/5.jpeg" alt=""></div>
+                    </div>
+                    <div
+                        class="absolute w-full h-[75%] lg:flex justify-center-safe z-20 items-end hidden lg:-mt-43  xl:-mt-20">
+                        <div class=" absolute flex justify-between w-[90%]">
+                            <div class="flex left-dokmeh">
+                                <i class="bi bi-chevron-left text-white  text-6xl z-1"></i>
+                                <i class="bi bi-chevron-left text-black  text-6xl z-0 -ms-14"></i>
+                            </div>
+                            <div class=" right-dokmeh">
+                                <i class="bi bi-chevron-right text-black  text-6xl z-0 -me-17"></i>
+                                <i class="bi bi-chevron-right text-white  text-6xl z-1 "></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="w-[100%] flex flex-col">
+                    <div class="lg:hidden">&nbsp;</div>
+                    <div class="lg:hidden">&nbsp;</div>
+                    <div class="lg:hidden">&nbsp;</div>
+                    <div class="lg:hidden ">&nbsp;</div>
+                    <div class="lg:hidden ">&nbsp;</div>
+                    <div class="lg:hidden ">&nbsp;</div>
+                    <div class="lg:hidden ">&nbsp;</div>
+                    <div class="lg:hidden ">&nbsp;</div>
+                    <div class="lg:hidden ">&nbsp;</div>
+                    <div class="hidden delete lg:hidden ">&nbsp;</div>
+                    <div class="hidden delete lg:hidden ">&nbsp;</div>
+                    <div class="hidden delete lg:hidden ">&nbsp;</div>
+                    <div class="hidden delete lg:hidden ">&nbsp;</div>
+                    <div class="hidden delet delete lg:hidden ">&nbsp;</div>
+                    <div class="hidden delet delete lg:hidden ">&nbsp;</div>
+                    <div class="hidden delet delete lg:hidden ">&nbsp;</div>
+                    <div class="hidden delet delete lg:hidden ">&nbsp;</div>
+                    <div class="hidden delet delete lg:hidden ">&nbsp;</div>
+                    <div
+                        class=" lg:absolute flex justify-center-safe w-[100%] lg:w-[63.4%] lg:-mt-37 xl:-mt-11 xxl:-mt-0 ">
+                        <div class="w-[10px] h-[10px] rounded-full bg-gray-400  mx-1 docmeh"></div>
+                        <div class="w-[10px] h-[10px] rounded-full bg-gray-400  mx-1 docmeh"></div>
+                        <div class="w-[10px] h-[10px] rounded-full bg-gray-400  mx-1 docmeh"></div>
+                        <div class="w-[10px] h-[10px] rounded-full bg-gray-400  mx-1 docmeh"></div>
+                        <div class="w-[10px] h-[10px] rounded-full bg-gray-400  mx-1 docmeh"></div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- end-img-zir-navi -->
+
+            <!-- start-text-zir-navi-lg -->
+            <div class="hidden lg:flex flex-col
+                                items-center">
+                <p class=" p-3 pt-0 text-right text-[17px] font-bold">
+
+                    مجتمع فنی تهران، پیشرو در حوزه مهارت آموزی و توسعه
+                    اشتغال مولد
+
+
+                </p>
+                <p class=" px-3 pt-3 text-right text-[13px] text-gray-400 ">
+
+                    مجتمع فنی تهران ماموریت خود را توسعه اشتغال و کار آفرینی از طریق آموزش های مهارت محور می داند.
+
+                </p>
+                <div class="w-full flex justify-end">
+                    <div
+                        class="bg-blue-700/50 rounded-4xl shadow-lg shadow-blue-500/50 mt-6 w-[170px] flex justify-center-safe hover:border-3 border-white">
+                        <p class="text-[14px] py-2 px-6 text-white"> مشاهده دپارتمان ها </p>
+                    </div>
+                </div>
+                <div class="w-full flex justify-end">
+                    <div
+                        class=" border-2 border-blue-700/50 rounded-4xl  mt-6 mx-1 hover:bg-blue-700/60 hover:border-white ">
+                        <p class="text-[14px] py-2 px-6 text-blue-700/50 font-bold hover:text-white"> دانش سلامت
+                        </p>
+                    </div>
+
+                    <div class=" border-2 border-blue-700/50 rounded-4xl mt-6 hover:bg-blue-700/60 hover:border-white ">
+                        <p class="text-[14px] py-2 px-6 text-blue-700/50 font-bold hover:text-white"> فناوری اطلاعات
+                            و ارتباطات </p>
+                    </div>
+
+                </div>
+                <div class="w-full flex justify-end">
+                    <div
+                        class=" border-2 border-blue-700/50 rounded-4xl  mt-1   mx-1 hover:bg-blue-700/60 hover:border-white">
+                        <p class="text-[14px] py-2 px-6 text-blue-700/50 font-bold hover:text-white"> علوم مالی و
+                            حسابداری </p>
+                    </div>
+
+                    <div class=" border-2 border-blue-700/50 rounded-4xl mt-1 hover:bg-blue-700/60 hover:border-white ">
+                        <p class="text-[14px] py-2 px-6 text-blue-700/50 font-bold hover:text-white"> هنر و سینما
+                        </p>
+                    </div>
+
+                </div>
+                <div class="w-full flex justify-end">
+                    <div
+                        class=" border-2 border-blue-700/50 rounded-4xl  mt-1   mx-1 hover:bg-blue-700/60 hover:border-white">
+                        <p class="text-[14px] py-2 px-6 text-blue-700/50 font-bold hover:text-white"> فرهنگ، ارتباط
+                            و رسانه </p>
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- end-text-zir-navi-lg -->
+        </div>
+
+
+
+        <script src="js/main.js"></script>
 </body>
 
 </html>
